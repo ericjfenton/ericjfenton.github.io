@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  background-color:cornsilk;
+  }
+
+  a {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #mypicture {
+    float: left;
+  }
+
+  h1 {
+    border-style: double;
+    color: darkblue;
+  }
+
+h2 {
+   color: darkred;
+   font-size: 25px;
+   padding: 5px 10px;
+  }
+
+img {
+  height: 500px;
+  width: auto;
+}
+
+p {
+   color: darkgreen;
+   font-size: 18px;
+   padding: 1px;
+   margin: 1px;
+  }
