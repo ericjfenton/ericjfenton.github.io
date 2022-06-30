@@ -36,3 +36,11 @@ p {
    padding: 1px;
    margin: 1px;
   }
+
+#aboutlink {
+    padding: 1px;
+    margin: 1px;
+    color: green;
+    font-size: 16px;
+    display: block;
+  }
