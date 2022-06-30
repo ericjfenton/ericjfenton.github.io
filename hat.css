@@ -1,0 +1,30 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  }
+
+  
+  h1 {
+    color: darkblue;
+  }
+
+h2 {
+   color: darkred;
+  }
+
+img {
+  height: auto;
+  width: 600px;
+  display: inline-block;
+  padding: 20px;
+}
+
+ .shrink {
+  height: auto;
+  width: 500px;
+} 
+
+p {
+   padding: 1px;
+   margin: 1px;
+  }
