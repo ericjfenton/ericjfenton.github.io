@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  background-color: cornsilk;
+  }
+
+  a {
+    padding: 10px;
+  }
+
+  h1 {
+    border-style: double;
+    color: darkblue;
+    text-align: center;
+  }
+
+h2 {
+   color: darkred;
+   padding: 2px;
+   margin: 2px;
+  }
+
+h3 {
+  color: darkgreen;
+}
+
+img {
+  height: 200px;
+  width: auto;
+}
+
+.box {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  max-width: 300px;
+  display: inline-block;
+}
+
+
+p {
+   color: darkslateblue;
+   padding: 1px;
+   margin: 1px;
+  }
