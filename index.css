@@ -44,11 +44,9 @@ p {
     display: block;
   }
 
-@media only screen and (max-width: 1048px) {
+@media only screen and (max-width: 1200px) {
     #aboutlink {
-    font-size: 32px;
+    font-size: 28px;
     }
 }
 
-
-<!-- 2nd attempt alternate link styling -->
