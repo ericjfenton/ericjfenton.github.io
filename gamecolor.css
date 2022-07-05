@@ -1,0 +1,54 @@
+
+body {
+  background: cornsilk;
+  color: #000;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: darkblue;
+  text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: darkred;
+    text-align: center;
+}
+
+.allboxes {
+  text-align: center;
+}
+
+.box {
+    margin: 5px 5px;
+    padding: 30px 80px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+#block1 {
+    background: white;
+    }
+
+#block2 {
+    background: white;
+    }
+
+#block3 {
+    background: white;
+    }
+
+#block4 {
+    background: white;
+    }
+
+#endmessage {
+  color: teal;
+}
+
+
+
+

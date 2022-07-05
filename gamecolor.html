@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Game</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" >
+
+  <link href='gamecolor.css' rel='stylesheet'>
+  <script src="gamecolor.js"></script>
+</head>
+<body>
+  
+  <h1 onclick="startgame()" id="toptext">Click here to start</h1>
+  <h2>Click boxes to match colors</h2>
+
+<div class="allboxes">
+
+<div onclick="box1function()" class="box" id="block1">
+  <p>1</p>
+  </div>
+
+<div onclick="box2function()" class="box" id="block2">
+  <p>2</p>
+  </div>
+
+<br>
+
+<div onclick="box3function()" class="box" id="block3">
+  <p>3</p>
+  </div>
+
+<div onclick="box4function()" class="box" id="block4">
+  <p>4</p>
+  </div>
+
+</div>
+
+<h2 onclick="messageUpdate()" id="endmessage">Click here to check answer</h2>
+  
+</body>
+</html>
