@@ -1,15 +1,14 @@
-
 function startgame() {
   let elem1 = document.getElementById('block1');
   let elem2 = document.getElementById('block2');
   let elem3 = document.getElementById('block3');
   let elem4 = document.getElementById('block4');
-  let botmessage = document.getElementById('endmessage');
+  let yourMessage = document.getElementById('endmessage');
   elem1.style.background = 'red';
   elem2.style.background = 'yellow';
   elem3.style.background = 'green';
   elem4.style.background = 'purple';
-  botmessage.innerHTML = 'Click here to check answer';
+  yourMessage.innerHTML = "Click boxes to match colors";
 }
 
 function newColor(elem) {
@@ -70,6 +69,6 @@ function messageUpdate() {
     if (color1 === color2 && color2 === color3 && color3 === color4) {
       yourMessage.innerHTML = "All the colors match!";
     } else {
-    yourMessage.innerHTML = "Keep trying. Click here to check";
+    yourMessage.innerHTML = "Keep trying. Continue clicking boxes.";
     }
 }
