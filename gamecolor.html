@@ -9,32 +9,32 @@
 </head>
 <body>
   <a href="index.html">Return to GitHub Home Page</a>
-  <h1 onclick="startgame()" id="toptext">Click here to start</h1>
-  <h2>Click boxes to match colors</h2>
+ 
+<h1 onclick="startgame()" id="toptext">Click here to start or restart</h1>
 
 <div class="allboxes">
 
-<div onclick="box1function()" class="box" id="block1">
+<div onmousedown="box1function()" onmouseup="messageUpdate()" class="box" id="block1">
   <p>1</p>
   </div>
 
-<div onclick="box2function()" class="box" id="block2">
+<div onmousedown="box2function()" onmouseup="messageUpdate()"class="box" id="block2">
   <p>2</p>
   </div>
 
 <br>
 
-<div onclick="box3function()" class="box" id="block3">
+<div onmousedown="box3function()" onmouseup="messageUpdate()"class="box" id="block3">
   <p>3</p>
   </div>
 
-<div onclick="box4function()" class="box" id="block4">
+<div onmousedown="box4function()" onmouseup="messageUpdate()"class="box" id="block4">
   <p>4</p>
   </div>
 
 </div>
 
-<h2 onclick="messageUpdate()" id="endmessage">Click here to check answer</h2>
+<h2 id="endmessage">Click boxes to match colors</h2>
   
 </body>
 </html>
